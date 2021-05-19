@@ -1,0 +1,11 @@
+{% extends 'main/layout.html' %}
+
+{% block content %}
+    <h1>Удаление из облака</h1>
+    <h2>{{document.title}}</h2>
+    <form action="" method="post">
+      {% csrf_token %}
+      <p>Вы хотите удалить файл {{document.title}} из облака ?</p>
+      <input type="submit" value="Удалить" />
+    </form>
+{% endblock content %}

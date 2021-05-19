@@ -1,0 +1,42 @@
+﻿2021-04-03 00:40:37> Program: Starting Squirrel Updater: --createShortcut GitHubDesktop.exe -l StartMenu,Desktop
+2021-04-03 00:40:37> ApplyReleasesImpl: About to create shortcuts for GitHubDesktop.exe, rootAppDir C:\Users\piple\AppData\Local\GitHubDesktop
+2021-04-03 00:40:37> ApplyReleasesImpl: Creating shortcut for GitHubDesktop.exe => C:\Users\piple\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\GitHub, Inc.\GitHub Desktop.lnk
+2021-04-03 00:40:38> ApplyReleasesImpl: About to save shortcut: C:\Users\piple\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\GitHub, Inc.\GitHub Desktop.lnk (target C:\Users\piple\AppData\Local\GitHubDesktop\GitHubDesktop.exe, workingDir C:\Users\piple\AppData\Local\GitHubDesktop\app-2.7.1, args , toastActivatorCSLID 27d44d0c-a542-5b90-bcdb-ac3126048ba2)
+2021-04-03 00:40:38> ApplyReleasesImpl: Creating shortcut for GitHubDesktop.exe => C:\Users\piple\Desktop\GitHub Desktop.lnk
+2021-04-03 00:40:38> ApplyReleasesImpl: About to save shortcut: C:\Users\piple\Desktop\GitHub Desktop.lnk (target C:\Users\piple\AppData\Local\GitHubDesktop\GitHubDesktop.exe, workingDir C:\Users\piple\AppData\Local\GitHubDesktop\app-2.7.1, args , toastActivatorCSLID 27d44d0c-a542-5b90-bcdb-ac3126048ba2)
+2021-04-03 00:40:38> ApplyReleasesImpl: Examining Pin: Driver Booster.lnk
+2021-04-03 00:40:38> ApplyReleasesImpl: Examining Pin: Evernote.lnk
+2021-04-03 00:40:38> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+2021-04-03 00:40:38> ApplyReleasesImpl: Examining Pin: Steam.lnk
+2021-04-03 00:40:38> ApplyReleasesImpl: Examining Pin: Viber.lnk
+2021-04-03 00:40:38> ApplyReleasesImpl: Examining Pin: Yandex.lnk
+2021-04-03 00:40:39> Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=2.7.1&env=production
+2021-04-03 00:40:39> Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.7.1&env=production
+2021-04-03 00:40:39> SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\piple\AppData\Local\Temp\.squirrel-lock-94610026723CDF506CA3DA48F9D277E4CD933E18: System.IO.IOException: Процесс не может получить доступ к файлу "C:\Users\piple\AppData\Local\Temp\.squirrel-lock-94610026723CDF506CA3DA48F9D277E4CD933E18", так как этот файл используется другим процессом.
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   в Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+2021-04-03 00:40:39> SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\piple\AppData\Local\Temp\.squirrel-lock-94610026723CDF506CA3DA48F9D277E4CD933E18: System.IO.IOException: Процесс не может получить доступ к файлу "C:\Users\piple\AppData\Local\Temp\.squirrel-lock-94610026723CDF506CA3DA48F9D277E4CD933E18", так как этот файл используется другим процессом.
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   в Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+2021-04-03 00:40:40> SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\piple\AppData\Local\Temp\.squirrel-lock-94610026723CDF506CA3DA48F9D277E4CD933E18: System.IO.IOException: Процесс не может получить доступ к файлу "C:\Users\piple\AppData\Local\Temp\.squirrel-lock-94610026723CDF506CA3DA48F9D277E4CD933E18", так как этот файл используется другим процессом.
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   в Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+2021-04-03 00:40:40> SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\piple\AppData\Local\Temp\.squirrel-lock-94610026723CDF506CA3DA48F9D277E4CD933E18: System.IO.IOException: Процесс не может получить доступ к файлу "C:\Users\piple\AppData\Local\Temp\.squirrel-lock-94610026723CDF506CA3DA48F9D277E4CD933E18", так как этот файл используется другим процессом.
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   в Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+2021-04-03 00:40:40> SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\piple\AppData\Local\Temp\.squirrel-lock-94610026723CDF506CA3DA48F9D277E4CD933E18: System.IO.IOException: Процесс не может получить доступ к файлу "C:\Users\piple\AppData\Local\Temp\.squirrel-lock-94610026723CDF506CA3DA48F9D277E4CD933E18", так как этот файл используется другим процессом.
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   в Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+2021-04-03 00:40:40> CheckForUpdateImpl: Generated new staging user ID: 0c546bfe-56cd-5486-8f85-acf6d5496808
+2021-04-03 00:40:40> CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.7.1&env=production
+2021-04-03 00:40:41> FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.7.1&env=production&id=GitHubDesktop&localVersion=2.7.1&arch=amd64
