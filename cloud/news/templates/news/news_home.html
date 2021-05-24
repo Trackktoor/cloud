@@ -1,11 +1,10 @@
 {% extends 'main/layout.html' %}
 {% block title %}
-    Новости
+    отчёты
 {%endblock%}
 {% block content %}
     <div class="features">
-        <h1>Новости сайта</h1>
-        <p>Новости</p>
+        <h1>отчёта</h1>
         {% for n in news %}
             {% if date_now >= n.date %}
                 <h2>{{ n.title }}</h2>

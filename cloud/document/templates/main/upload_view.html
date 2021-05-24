@@ -1,7 +1,7 @@
 {% extends 'main/layout.html' %}
 
 {% block title %}
-    Загрузка
+    Загрузка отчета
 {% endblock %}
 
 {% block content %}
@@ -9,7 +9,7 @@
     {% csrf_token %}
     {{ form.descriptions }}
     {{ form.document }}
-    <button type="submit">Загрузить</button>
+    <button type="submit">Загрузить отчет</button>
   </form>
   <p><a href="{% url 'indexView' %}">На главную</a></p>
 {% endblock %}

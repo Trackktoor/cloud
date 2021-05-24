@@ -1,10 +1,10 @@
 {% extends 'main/layout.html' %}
 {% block title %}
-    Информация
+    Информация об отчёте
 {%endblock%}
-{% block content %}
+{% block content %} 
     <h1>Информация</h1>
     <p>Ваш файл: {{ document.descriptions }}</p>
-    <p>Время загрузки файла в облако: {{document.date_upload}}</p>
+    <p>Время загрузки отчета в базу данных: {{document.date_upload}}</p>
     <p>Описание: {{document.descriptions}}</p>
 {% endblock %}

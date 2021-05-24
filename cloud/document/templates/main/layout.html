@@ -16,13 +16,14 @@
     {% cache 50000 sidebar %}
     <aside>
         <img src="{% static 'main/img/ddd2.png' %}" alt="Золотой шарик из гарри потера">
-        <span class="logo">Cloud</span>
+        <span class="logo">Бухгалтерия</span>
         <ul>
             <a href="{% url 'indexView' %}"><li> <i class="fas fa-home"></i> Главная</li></a>
-            <a href="{% url 'document_upload' %}"><li> <i class="fa fa-arrow-circle-up"></i> Загрузка</li></a>
-            <a href="{% url 'documentAll' %}"><li> <i class="fa fa-arrow-circle-down"></i> Выгрузка</li></a>
-            <a href="{% url 'news_home' %}"><li><i class="fas fa-home"></i> Новости</li></a>
-            <a href="{% url 'news_create' %}"><li> <i class="fa fa-arrow-circle-up"></i> Добавить новость</a>
+            <a href="{% url 'document_upload' %}"><li> <i class="fa fa-arrow-circle-up"></i> Загрузка отчета</li></a>
+            <a href="{% url 'documentAll' %}"><li> <i class="fa fa-arrow-circle-down"></i> Выгрузка отчета</li></a>
+            <a href="{% url 'news_home' %}"><li><i class="fas fa-home"></i> Отчеты</li></a>
+            <a href="{% url 'valuteAll' %}"><li><i class="fas fa-home"></i> Курсы валют</li></a>
+            <a href="{% url 'news_create' %}"><li> <i class="fa fa-arrow-circle-up"></i> Добавить отчет</a>
         </ul>
     </aside>
     {% endcache %}

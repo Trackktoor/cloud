@@ -1,10 +1,10 @@
 {% extends  'main/layout.html'%}
 {% block title %}
-    Форма по добавлению статьи
+    Форма по добавлению отчёта
 {% endblock %}
 
 {% block content %}
-    <h1 class="features">Форма по добавлению статьи</h1>
+    <h1 class="features">Форма по добавлению отчёта</h1>
     <form method="post" class="features">
         {%csrf_token%}
         {{ form.title }}<br>
@@ -12,6 +12,6 @@
         {{ form.full_text }}<br>
         {{ form.date }}<br>
         <span>{{error}}</span>
-        <button class="btn btn-success" type="submit">Добавить статью</button>
+        <button class="btn btn-success" type="submit">Добавить отчёт</button>
     </form>
 {% endblock %}

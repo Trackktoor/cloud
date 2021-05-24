@@ -1,0 +1,15 @@
+{% extends 'main/layout.html' %}
+{% block title %}
+    Выгрузка отчетов
+{%endblock%}
+{% block content %}
+    <h1>Курсы валют</h1>
+    <p>Валюьты</p>
+        <ul>
+            {% for valute in valuteAll %}
+                <li>
+                    valute
+                </li>
+            {% endfor %}
+        </ul>
+{% endblock %}
