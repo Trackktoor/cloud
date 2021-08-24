@@ -1,5 +1,7 @@
 body {
     background: #CCCCCC;
+    margin: 0;
+    padding: 0;
 }
 
 aside {
@@ -52,7 +54,6 @@ aside h3 {
 .features {
     margin: 0 auto;
     color: #fff;
-    margin-top: 100px;
     text-align: center;
     width: 55%;
 }

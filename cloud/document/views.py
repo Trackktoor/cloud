@@ -25,6 +25,7 @@ class DocumentDeleteView(DeleteView):
 def DocumentUpload(request):
     if request.method == 'POST':
         form = DocumentForm(request.POST, request.FILES)
+        print(request.FILES)
         if form.is_valid():
             print(form)
             form.save()
